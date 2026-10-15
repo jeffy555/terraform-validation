@@ -170,3 +170,16 @@ import {
   to = azurerm_resource_group.apptest
   id = "/subscriptions/be1b0fcb-1e30-4142-bb0c-ff52f7a1a0e5/resourceGroups/rg-spiritops-apptest-dev"
 }
+resource "azurerm_user_assigned_identity" "permission_test" {
+  name                = "id-spiritops-permission-test-dev"
+  resource_group_name = azurerm_resource_group.apptest.name
+  location            = azurerm_resource_group.apptest.location
+  tags                = local.required_tags
+}
+
+resource "azurerm_role_assignment" "permission_test_storage_reader" {
+  role_definition_name = "Reader"
+  scope                = azurerm_storage_account.apptest.id
+  principal_id         = azurerm_user_assigned_identity.permission_test.principal_id
+  principal_type       = "ServicePrincipal"
+}

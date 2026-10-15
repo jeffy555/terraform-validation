@@ -1,196 +1,257 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1832 1972" role="img" aria-labelledby="title description" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1832 2212" role="img" aria-labelledby="title description" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
 <title id="title">SpiritOps architecture</title>
 <desc id="description">Directional resource dependencies. Each node includes its change label and source link.</desc>
 <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8cabb9"/></marker></defs>
-<rect width="1832" height="1972" fill="#0b141b"/>
+<rect width="1832" height="2212" fill="#0b141b"/>
 <g font-family="sans-serif" fill="#e5f0f6"><text x="24" y="30" font-size="19">SpiritOps</text>
-<text x="24" y="53" font-size="12">Build 01M4ZBMS00T4SS9RTWZ863EANC · Source uncommitted · Parent none</text>
+<text x="24" y="53" font-size="12">Build 01M4ZSF9EE1Z3C3TVPHZ53A27J · Source 0b0d557d · Parent 01M4ZBMS00T4SS9RTWZ863EANC</text>
 <text x="24" y="80" font-size="12" fill="#8cabb9">= Unchanged</text>
 <text x="156" y="80" font-size="12" fill="#45d99b">+ Create</text>
 <text x="288" y="80" font-size="12" fill="#f4c265">~ Modify</text>
 <text x="420" y="80" font-size="12" fill="#ff747e">− Destroy</text>
 <text x="552" y="80" font-size="12" fill="#ff747e">↻ Replace</text>
 <text x="684" y="80" font-size="12" fill="#ff9a4c">! Drift</text>
-<polyline points="1351.65,1751 1462,1828 1504,1828" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="1420,1701 1462,1701 1504,1694.08" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="1291.52,1651 1462,911 1630.93,265" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="937.72,614 1098,245 1140,253.77" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="949.21,614 1098,390 1140,396.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="974.33,614 1098,508 1155.34,531" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="993.78,714 1098,781 1244.03,984" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="933.23,714 1098,1192 1140,1205.38" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="926.96,714 1098,1494 1140,1503" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="932.4,770 1098,265 1140,269.15" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="938.2,770 1098,410 1140,412.08" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="947.16,770 1098,528 1140,540.23" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="1056,820 1098,820 1237.48,984" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="939.21,870 1098,1212 1140,1220.77" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="929.11,870 1098,1514 1140,1518.38" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="929.34,926 1098,294 1140,291.46000000000004" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="932.67,926 1098,430 1140,427.46" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="938.2,926 1098,566 1140,569.46" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="1056,976 1098,976 1140,989.38" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="951.55,1026 1098,1232 1140,1236.15" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="932.31,1026 1098,1534 1140,1533.77" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="200.69,995 370,1662 552,1662 734,1662 916,1662 1098,1662 1140,1671" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="201.32,895 370,262 552,262 734,262 776,264.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="199.96,895 370,184 412,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="220.38,895 370,664 552,664 734,664 776,664" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="260.8,895 370,820 552,820 734,820 776,820" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="328,968.85 370,976 552,976 734,976 776,976" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="203.29,895 370,350 552,350 734,350 916,350 1098,350 1144.18,333" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="207.08,895 370,468 552,468 734,468 916,468 1098,468 1140,456.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="213.35,895 370,586 552,586 734,586 916,586 1098,586 1140,584.85" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="236.66,995 370,1132 552,1132 734,1132 916,1132 1098,1132 1187.14,1084" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="216.89,995 370,1260 552,1260 734,1260 916,1260 1098,1260 1140,1257.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="202.94,995 370,1554 552,1554 734,1554 916,1554 1098,1554 1140,1549.15" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="328,908.85 370,898 412,898" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="211.16,995 370,1338 552,1338 734,1338 776,1338" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="199.58,995 370,1731 552,1731 734,1731 776,1737.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="207.32,995 370,1416 552,1416 734,1416 776,1429.38" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="271.49,995 370,1054 412,1054" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="563.61,948 734,1682 916,1682 1098,1682 1140,1686.38" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="567.24,848 734,301 776,294.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="939.21,1388 1098,1730 1140,1723.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="964.92,1288 1098,1152 1202.88,1084" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="1056,1338 1098,1338 1176.59,1300" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="954.56,1388 1098,1574 1140,1564.54" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="936.18,1388 1098,1789 1280,1789 1462,1789 1504,1798" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="947.93,1388 1098,1623 1280,1623 1462,1623 1504,1634.08" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="924.03,1288 1098,205 1280,205 1462,205 1504,207.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="1056,1760 1098,1760 1140,1746.38" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="946.13,1424 1098,1172 1214.06,1084" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="1056,1474 1098,1474 1239.38,1300" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="991.83,1524 1098,1594 1140,1579.92" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="565.3,1004 734,370 916,370 1098,370 1175.4,333" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="568.08,1004 734,488 916,488 1098,488 1148.12,469" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="581.17,1004 734,742 916,742 1098,742 1223.48,631" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="564.71,1104 734,1770 776,1767.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<polyline points="572.22,1104 734,1504 776,1497.08" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
-<g id="n8855d4bace4069597bd04c7ca8a61645c6ab62c9806cb2242128684b89a1bcae" data-address="azurerm_linux_function_app.apptest" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_linux_function_app.apptest — Drift</title><rect x="1140" y="1651" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
-<text x="1152" y="1676" font-size="14">func-spiritops-apptest-dev</text>
-<text x="1152" y="1699" font-size="11">azurerm_linux_function_app</text>
-<text x="1152" y="1728" font-size="12" fill="#ff9a4c">! Drift</text>
+<polyline points="1346.91,1982 1462,2068 1504,2068" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1420,1932 1462,1932 1504,1929.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1289.93,1882 1462,1016 1632.64,265" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="937.72,614 1098,245 1140,255.15" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="949.21,614 1098,390 1140,398.08" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="974.33,614 1098,508 1170.36,541" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="993.78,714 1098,781 1250.55,1040" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="930.13,714 1098,1308 1140,1318.85" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="926.36,714 1098,1542 1186.19,1589" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="932.4,770 1098,265 1140,270.53999999999996" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="938.2,770 1098,410 1140,413.46" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="947.16,770 1098,528 1140,542.54" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1056,820 1098,820 1246.3,1040" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="933.91,870 1098,1328 1140,1334.23" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="928.13,870 1098,1570 1148.12,1589" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="929.75,906 1098,294 1140,292.85" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="933.3,906 1098,430 1140,428.85" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="939.33,906 1098,566 1140,571.77" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1056,956 1098,956 1212.09,1040" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="939.21,1006 1098,1348 1140,1349.62" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="930.35,1006 1098,1590 1140,1601.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="199.06,1129 370,1902 552,1902 734,1902 916,1902 1098,1902 1140,1908.92" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="199.14,1029 370,262 552,262 734,262 776,264.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="198.17,1029 370,184 412,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="209.93,1029 370,664 552,664 734,664 776,664" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="223.14,1029 370,820 552,820 734,820 776,820" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="261.98,1029 370,956 552,956 734,956 776,956" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="200.48,1029 370,350 552,350 734,350 916,350 1098,350 1140,335.91999999999996" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="202.89,1029 370,468 552,468 734,468 916,468 1098,468 1140,458.08" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="206.46,1029 370,586 552,586 734,586 916,586 1098,586 1140,587.15" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="241.85,1129 370,1248 552,1248 734,1248 916,1248 1098,1248 1222.41,1140" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="218.64,1129 370,1376 552,1376 734,1376 916,1376 1098,1376 1140,1371.15" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="203.22,1129 370,1677 552,1677 734,1677 916,1677 1098,1677 1140,1668.23" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="328,1044.38 370,1034 412,1034" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="205.81,1129 370,1590 552,1590 734,1590 776,1590" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="198.2,1129 370,1971 552,1971 734,1971 776,1977.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="214.3,1129 370,1425 552,1425 734,1425 776,1431.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="200.55,1129 370,1804 552,1804 734,1804 776,1804" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="288,1129 370,1170 412,1170" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="562.25,1084 734,1922 916,1922 1098,1922 1140,1924.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="564.41,984 734,301 776,294.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="939.95,1640 1098,1970 1140,1961.23" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="944.26,1540 1098,1268 1228.88,1140" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="970.82,1540 1098,1424 1148.12,1405" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1001.05,1640 1098,1697 1140,1683.62" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="936.73,1640 1098,2029 1280,2029 1462,2029 1504,2038" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="950.6,1640 1098,1853 1280,1853 1462,1853 1512.12,1872" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="922.57,1540 1098,205 1280,205 1462,205 1504,207.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="977.9,1640 1098,1737 1140,1745.77" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1056,2000 1098,2000 1146.18,1982" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="970.82,1404 1098,1288 1234.04,1140" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1056,1460.92 1098,1463 1195.74,1405" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="950.6,1504 1098,1717 1163.33,1689" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="1056,1804 1098,1804 1140,1797.31" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="563.38,1120 734,370 916,370 1098,370 1167.65,339" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="565.34,1120 734,488 916,488 1098,488 1140,473.46" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="573.26,1120 734,742 916,742 1098,742 1219.74,641" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="562.83,1220 734,2010 776,2007.69" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="578.61,1220 734,1512 776,1498.62" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<g id="n8855d4bace4069597bd04c7ca8a61645c6ab62c9806cb2242128684b89a1bcae" data-address="azurerm_linux_function_app.apptest" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_linux_function_app.apptest source">
+<title>azurerm_linux_function_app.apptest — Modify</title><rect x="1140" y="1882" width="280" height="100" rx="10" fill="#12212b" stroke="#f4c265" stroke-width="2"/>
+<text x="1152" y="1907" font-size="14">func-spiritops-apptest-dev</text>
+<text x="1152" y="1930" font-size="11">azurerm_linux_function_app</text>
+<text x="1152" y="1959" font-size="12" fill="#f4c265">~ Modify</text>
+</a>
 </g>
-<g id="n0befd02c53d9ea3b5e1a01e41875e295d7b638f2d719c6f56598b065c775cb3c" data-address="azurerm_linux_web_app.apptest" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_linux_web_app.apptest — Drift</title><rect x="776" y="222" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
+<g id="n0befd02c53d9ea3b5e1a01e41875e295d7b638f2d719c6f56598b065c775cb3c" data-address="azurerm_linux_web_app.apptest" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_linux_web_app.apptest source">
+<title>azurerm_linux_web_app.apptest — Unchanged</title><rect x="776" y="222" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
 <text x="788" y="247" font-size="14">app-spiritops-apptest-dev</text>
 <text x="788" y="270" font-size="11">azurerm_linux_web_app</text>
-<text x="788" y="299" font-size="12" fill="#ff9a4c">! Drift</text>
+<text x="788" y="299" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n2ac31e9164290c3e9f67e4fd847364b8bdb974cad972bfc8967e93da73621be2" data-address="azurerm_postgresql_flexible_server.apptest" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
+<g id="n2ac31e9164290c3e9f67e4fd847364b8bdb974cad972bfc8967e93da73621be2" data-address="azurerm_postgresql_flexible_server.apptest" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_postgresql_flexible_server.apptest source">
 <title>azurerm_postgresql_flexible_server.apptest — Unchanged</title><rect x="412" y="134" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
 <text x="424" y="159" font-size="14">pg-spiritops-apptest-dev</text>
 <text x="424" y="182" font-size="11">azurerm_postgresql_flexible_server</text>
 <text x="424" y="211" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n761fd71ffb94c3c3b2575262fcb46520f0da3f0c10ff36095d37bfc99debee93" data-address="azurerm_private_dns_zone.storage[&quot;blob&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_dns_zone.storage[&quot;blob&quot;] — Drift</title><rect x="776" y="614" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
+<g id="n761fd71ffb94c3c3b2575262fcb46520f0da3f0c10ff36095d37bfc99debee93" data-address="azurerm_private_dns_zone.storage[&quot;blob&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_dns_zone.storage[&quot;blob&quot;] source">
+<title>azurerm_private_dns_zone.storage[&quot;blob&quot;] — Unchanged</title><rect x="776" y="614" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
 <text x="788" y="639" font-size="14">privatelink.blob.core.windows.…</text>
 <text x="788" y="662" font-size="11">azurerm_private_dns_zone</text>
-<text x="788" y="691" font-size="12" fill="#ff9a4c">! Drift</text>
+<text x="788" y="691" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n2e1e86c66c17ba27b3a51850f95504115f72e86fd8d606a5dfc1ca69fdf85f63" data-address="azurerm_private_dns_zone.storage[&quot;queue&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_dns_zone.storage[&quot;queue&quot;] — Drift</title><rect x="776" y="770" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
+<g id="n2e1e86c66c17ba27b3a51850f95504115f72e86fd8d606a5dfc1ca69fdf85f63" data-address="azurerm_private_dns_zone.storage[&quot;queue&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_dns_zone.storage[&quot;queue&quot;] source">
+<title>azurerm_private_dns_zone.storage[&quot;queue&quot;] — Unchanged</title><rect x="776" y="770" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
 <text x="788" y="795" font-size="14">privatelink.queue.core.windows…</text>
 <text x="788" y="818" font-size="11">azurerm_private_dns_zone</text>
-<text x="788" y="847" font-size="12" fill="#ff9a4c">! Drift</text>
+<text x="788" y="847" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="nf3f7db7aaffda887a138dca0fcc93d6d2fc0770b2583f5d993528c82c1b9f7a0" data-address="azurerm_private_dns_zone.storage[&quot;table&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_dns_zone.storage[&quot;table&quot;] — Drift</title><rect x="776" y="926" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
-<text x="788" y="951" font-size="14">privatelink.table.core.windows…</text>
-<text x="788" y="974" font-size="11">azurerm_private_dns_zone</text>
-<text x="788" y="1003" font-size="12" fill="#ff9a4c">! Drift</text>
+<g id="nf3f7db7aaffda887a138dca0fcc93d6d2fc0770b2583f5d993528c82c1b9f7a0" data-address="azurerm_private_dns_zone.storage[&quot;table&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_dns_zone.storage[&quot;table&quot;] source">
+<title>azurerm_private_dns_zone.storage[&quot;table&quot;] — Unchanged</title><rect x="776" y="906" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="788" y="931" font-size="14">privatelink.table.core.windows…</text>
+<text x="788" y="954" font-size="11">azurerm_private_dns_zone</text>
+<text x="788" y="983" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="ne9c30369f38d2376f1854bc9373066c480706224925938e11b3f518d58a7222a" data-address="azurerm_private_dns_zone_virtual_network_link.storage[&quot;blob&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_dns_zone_virtual_network_link.storage[&quot;blob&quot;] — Unchanged</title><rect x="1140" y="233" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="1152" y="258" font-size="14">link-apptest-blob</text>
-<text x="1152" y="281" font-size="11">azurerm_private_dns_zone_virtual_netwo…</text>
-<text x="1152" y="310" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="ne9c30369f38d2376f1854bc9373066c480706224925938e11b3f518d58a7222a" data-address="azurerm_private_dns_zone_virtual_network_link.storage[&quot;blob&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_dns_zone_virtual_network_link.storage[&quot;blob&quot;] source">
+<title>azurerm_private_dns_zone_virtual_network_link.storage[&quot;blob&quot;] — Unchanged</title><rect x="1140" y="239" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1152" y="264" font-size="14">link-apptest-blob</text>
+<text x="1152" y="287" font-size="11">azurerm_private_dns_zone_virtual_netwo…</text>
+<text x="1152" y="316" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n25c1e5bcc0d248d6c32c1dda941fe1c0f91cd28d72f699bde0f60ad89ae3791e" data-address="azurerm_private_dns_zone_virtual_network_link.storage[&quot;queue&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_dns_zone_virtual_network_link.storage[&quot;queue&quot;] — Unchanged</title><rect x="1140" y="369" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="1152" y="394" font-size="14">link-apptest-queue</text>
-<text x="1152" y="417" font-size="11">azurerm_private_dns_zone_virtual_netwo…</text>
-<text x="1152" y="446" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="n25c1e5bcc0d248d6c32c1dda941fe1c0f91cd28d72f699bde0f60ad89ae3791e" data-address="azurerm_private_dns_zone_virtual_network_link.storage[&quot;queue&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_dns_zone_virtual_network_link.storage[&quot;queue&quot;] source">
+<title>azurerm_private_dns_zone_virtual_network_link.storage[&quot;queue&quot;] — Unchanged</title><rect x="1140" y="375" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1152" y="400" font-size="14">link-apptest-queue</text>
+<text x="1152" y="423" font-size="11">azurerm_private_dns_zone_virtual_netwo…</text>
+<text x="1152" y="452" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n0c4582091498aa4d82585b16c1044934fb84ea5388602647b48faf032b4e5485" data-address="azurerm_private_dns_zone_virtual_network_link.storage[&quot;table&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_dns_zone_virtual_network_link.storage[&quot;table&quot;] — Unchanged</title><rect x="1140" y="531" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="1152" y="556" font-size="14">link-apptest-table</text>
-<text x="1152" y="579" font-size="11">azurerm_private_dns_zone_virtual_netwo…</text>
-<text x="1152" y="608" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="n0c4582091498aa4d82585b16c1044934fb84ea5388602647b48faf032b4e5485" data-address="azurerm_private_dns_zone_virtual_network_link.storage[&quot;table&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_dns_zone_virtual_network_link.storage[&quot;table&quot;] source">
+<title>azurerm_private_dns_zone_virtual_network_link.storage[&quot;table&quot;] — Unchanged</title><rect x="1140" y="541" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1152" y="566" font-size="14">link-apptest-table</text>
+<text x="1152" y="589" font-size="11">azurerm_private_dns_zone_virtual_netwo…</text>
+<text x="1152" y="618" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n6e6786f4ce1bf84bfdbd343dc33ad7bd7e7fcd121d7a4508978de92d51025b9b" data-address="azurerm_private_endpoint.storage[&quot;blob&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_endpoint.storage[&quot;blob&quot;] — Unchanged</title><rect x="1140" y="984" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="1152" y="1009" font-size="14">pe-apptest-blob</text>
-<text x="1152" y="1032" font-size="11">azurerm_private_endpoint</text>
-<text x="1152" y="1061" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="n6e6786f4ce1bf84bfdbd343dc33ad7bd7e7fcd121d7a4508978de92d51025b9b" data-address="azurerm_private_endpoint.storage[&quot;blob&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_endpoint.storage[&quot;blob&quot;] source">
+<title>azurerm_private_endpoint.storage[&quot;blob&quot;] — Unchanged</title><rect x="1140" y="1040" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1152" y="1065" font-size="14">pe-apptest-blob</text>
+<text x="1152" y="1088" font-size="11">azurerm_private_endpoint</text>
+<text x="1152" y="1117" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n98c34f67ddd12ec818e65de7b6b0416149d5ea4cdf7ed27dfe4469780a0cf035" data-address="azurerm_private_endpoint.storage[&quot;queue&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_endpoint.storage[&quot;queue&quot;] — Unchanged</title><rect x="1140" y="1200" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="1152" y="1225" font-size="14">pe-apptest-queue</text>
-<text x="1152" y="1248" font-size="11">azurerm_private_endpoint</text>
-<text x="1152" y="1277" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="n98c34f67ddd12ec818e65de7b6b0416149d5ea4cdf7ed27dfe4469780a0cf035" data-address="azurerm_private_endpoint.storage[&quot;queue&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_endpoint.storage[&quot;queue&quot;] source">
+<title>azurerm_private_endpoint.storage[&quot;queue&quot;] — Unchanged</title><rect x="1140" y="1305" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1152" y="1330" font-size="14">pe-apptest-queue</text>
+<text x="1152" y="1353" font-size="11">azurerm_private_endpoint</text>
+<text x="1152" y="1382" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n0e89387572b6d5248516d20674158d8aca8389d43b4b7efc0b3b777df5efca67" data-address="azurerm_private_endpoint.storage[&quot;table&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_private_endpoint.storage[&quot;table&quot;] — Unchanged</title><rect x="1140" y="1483" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="1152" y="1508" font-size="14">pe-apptest-table</text>
-<text x="1152" y="1531" font-size="11">azurerm_private_endpoint</text>
-<text x="1152" y="1560" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="n0e89387572b6d5248516d20674158d8aca8389d43b4b7efc0b3b777df5efca67" data-address="azurerm_private_endpoint.storage[&quot;table&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_private_endpoint.storage[&quot;table&quot;] source">
+<title>azurerm_private_endpoint.storage[&quot;table&quot;] — Unchanged</title><rect x="1140" y="1589" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1152" y="1614" font-size="14">pe-apptest-table</text>
+<text x="1152" y="1637" font-size="11">azurerm_private_endpoint</text>
+<text x="1152" y="1666" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="ne7c1a92448b164e483a61e59865eae853d066f17c86aaaf3067f689e7ef204fb" data-address="azurerm_resource_group.apptest" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_resource_group.apptest — Unchanged</title><rect x="48" y="895" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="60" y="920" font-size="14">rg-spiritops-apptest-dev</text>
-<text x="60" y="943" font-size="11">azurerm_resource_group</text>
-<text x="60" y="972" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="ne7c1a92448b164e483a61e59865eae853d066f17c86aaaf3067f689e7ef204fb" data-address="azurerm_resource_group.apptest" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_resource_group.apptest source">
+<title>azurerm_resource_group.apptest — Unchanged</title><rect x="48" y="1029" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="60" y="1054" font-size="14">rg-spiritops-apptest-dev</text>
+<text x="60" y="1077" font-size="11">azurerm_resource_group</text>
+<text x="60" y="1106" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n636357a87c362d7f2e8b2a002b2ba6de270b6759b1ac4e3979241a0d3e4757bf" data-address="azurerm_role_assignment.function_storage[&quot;blob&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_role_assignment.function_storage[&quot;blob&quot;] — Create</title><rect x="1504" y="1778" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
-<text x="1516" y="1803" font-size="14">7c44d5d8-1a14-4e02-9c90-774b40…</text>
-<text x="1516" y="1826" font-size="11">azurerm_role_assignment</text>
-<text x="1516" y="1855" font-size="12" fill="#45d99b">+ Create</text>
+<g id="n636357a87c362d7f2e8b2a002b2ba6de270b6759b1ac4e3979241a0d3e4757bf" data-address="azurerm_role_assignment.function_storage[&quot;blob&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_role_assignment.function_storage[&quot;blob&quot;] source">
+<title>azurerm_role_assignment.function_storage[&quot;blob&quot;] — Unchanged</title><rect x="1504" y="2018" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1516" y="2043" font-size="14">7c44d5d8-1a14-4e02-9c90-774b40…</text>
+<text x="1516" y="2066" font-size="11">azurerm_role_assignment</text>
+<text x="1516" y="2095" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n8e3c47948677201b72c12fcce4a704fea06daf606cfe0d3f2f5a048af73a0fb4" data-address="azurerm_role_assignment.function_storage[&quot;queue&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_role_assignment.function_storage[&quot;queue&quot;] — Create</title><rect x="1504" y="1621" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
-<text x="1516" y="1646" font-size="14">7c44d5d8-1a14-4e02-9c90-774b40…</text>
-<text x="1516" y="1669" font-size="11">azurerm_role_assignment</text>
-<text x="1516" y="1698" font-size="12" fill="#45d99b">+ Create</text>
+<g id="n8e3c47948677201b72c12fcce4a704fea06daf606cfe0d3f2f5a048af73a0fb4" data-address="azurerm_role_assignment.function_storage[&quot;queue&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_role_assignment.function_storage[&quot;queue&quot;] source">
+<title>azurerm_role_assignment.function_storage[&quot;queue&quot;] — Unchanged</title><rect x="1504" y="1872" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="1516" y="1897" font-size="14">7c44d5d8-1a14-4e02-9c90-774b40…</text>
+<text x="1516" y="1920" font-size="11">azurerm_role_assignment</text>
+<text x="1516" y="1949" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n131b2b83e77b229a050cb5bc32f225dd2fd4de04a50f8ca5e6c1e45bb9e1c209" data-address="azurerm_role_assignment.function_storage[&quot;table&quot;]" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_role_assignment.function_storage[&quot;table&quot;] — Create</title><rect x="1504" y="165" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<g id="n131b2b83e77b229a050cb5bc32f225dd2fd4de04a50f8ca5e6c1e45bb9e1c209" data-address="azurerm_role_assignment.function_storage[&quot;table&quot;]" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_role_assignment.function_storage[&quot;table&quot;] source">
+<title>azurerm_role_assignment.function_storage[&quot;table&quot;] — Unchanged</title><rect x="1504" y="165" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
 <text x="1516" y="190" font-size="14">7c44d5d8-1a14-4e02-9c90-774b40…</text>
 <text x="1516" y="213" font-size="11">azurerm_role_assignment</text>
-<text x="1516" y="242" font-size="12" fill="#45d99b">+ Create</text>
+<text x="1516" y="242" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="n1111fb981f36da2e9afe91c2a7f2f7259c3963c143ee334c81e2eed098563ed6" data-address="azurerm_service_plan.apptest" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_service_plan.apptest — Unchanged</title><rect x="412" y="848" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="424" y="873" font-size="14">asp-spiritops-apptest-dev</text>
-<text x="424" y="896" font-size="11">azurerm_service_plan</text>
-<text x="424" y="925" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="n0613cacce6a9dffe11eded5f4f0c4e1a8321633802ccb7b2f1847396af7667c3" data-address="azurerm_role_assignment.permission_test_storage_reader" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_role_assignment.permission_test_storage_reader source">
+<title>azurerm_role_assignment.permission_test_storage_reader — Create</title><rect x="1140" y="1725" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<text x="1152" y="1750" font-size="14">azurerm_role_assignment.permis…</text>
+<text x="1152" y="1773" font-size="11">azurerm_role_assignment</text>
+<text x="1152" y="1802" font-size="12" fill="#45d99b">+ Create</text>
+</a>
 </g>
-<g id="n82ae854c3fdb2c6cbf72e4b40513cb9f468a4799905a04eb74d86597fba20b14" data-address="azurerm_storage_account.apptest" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_storage_account.apptest — Unchanged</title><rect x="776" y="1288" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
-<text x="788" y="1313" font-size="14">stspiritopsapptest01</text>
-<text x="788" y="1336" font-size="11">azurerm_storage_account</text>
-<text x="788" y="1365" font-size="12" fill="#8cabb9">= Unchanged</text>
+<g id="n1111fb981f36da2e9afe91c2a7f2f7259c3963c143ee334c81e2eed098563ed6" data-address="azurerm_service_plan.apptest" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_service_plan.apptest source">
+<title>azurerm_service_plan.apptest — Unchanged</title><rect x="412" y="984" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="424" y="1009" font-size="14">asp-spiritops-apptest-dev</text>
+<text x="424" y="1032" font-size="11">azurerm_service_plan</text>
+<text x="424" y="1061" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="nf89447e9354cb6f8d283cd553b76c9f83687254727f842918ef97b39d8fef774" data-address="azurerm_subnet.function_integration" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_subnet.function_integration — Drift</title><rect x="776" y="1710" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
-<text x="788" y="1735" font-size="14">snet-functions</text>
-<text x="788" y="1758" font-size="11">azurerm_subnet</text>
-<text x="788" y="1787" font-size="12" fill="#ff9a4c">! Drift</text>
+<g id="n82ae854c3fdb2c6cbf72e4b40513cb9f468a4799905a04eb74d86597fba20b14" data-address="azurerm_storage_account.apptest" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_storage_account.apptest source">
+<title>azurerm_storage_account.apptest — Unchanged</title><rect x="776" y="1540" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="788" y="1565" font-size="14">stspiritopsapptest01</text>
+<text x="788" y="1588" font-size="11">azurerm_storage_account</text>
+<text x="788" y="1617" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="nf272b92f5a86e6543d139e27a3451e28158b2d3eb1d06fd26d6e737a84c71585" data-address="azurerm_subnet.private_endpoints" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_subnet.private_endpoints — Drift</title><rect x="776" y="1424" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
-<text x="788" y="1449" font-size="14">snet-private-endpoints</text>
-<text x="788" y="1472" font-size="11">azurerm_subnet</text>
-<text x="788" y="1501" font-size="12" fill="#ff9a4c">! Drift</text>
+<g id="nf89447e9354cb6f8d283cd553b76c9f83687254727f842918ef97b39d8fef774" data-address="azurerm_subnet.function_integration" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_subnet.function_integration source">
+<title>azurerm_subnet.function_integration — Unchanged</title><rect x="776" y="1950" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="788" y="1975" font-size="14">snet-functions</text>
+<text x="788" y="1998" font-size="11">azurerm_subnet</text>
+<text x="788" y="2027" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
-<g id="nc0701c5a9e73161ed765e3eae86a35b1e37c49ba705fb468fcbebe1f2fba35fc" data-address="azurerm_virtual_network.apptest" data-build-id="01M4ZBMS00T4SS9RTWZ863EANC">
-<title>azurerm_virtual_network.apptest — Drift</title><rect x="412" y="1004" width="280" height="100" rx="10" fill="#12212b" stroke="#ff9a4c" stroke-width="2"/>
-<text x="424" y="1029" font-size="14">vnet-spiritops-apptest-dev</text>
-<text x="424" y="1052" font-size="11">azurerm_virtual_network</text>
-<text x="424" y="1081" font-size="12" fill="#ff9a4c">! Drift</text>
+<g id="nf272b92f5a86e6543d139e27a3451e28158b2d3eb1d06fd26d6e737a84c71585" data-address="azurerm_subnet.private_endpoints" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_subnet.private_endpoints source">
+<title>azurerm_subnet.private_endpoints — Unchanged</title><rect x="776" y="1404" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="788" y="1429" font-size="14">snet-private-endpoints</text>
+<text x="788" y="1452" font-size="11">azurerm_subnet</text>
+<text x="788" y="1481" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
+</g>
+<g id="n23b1256baa691a5c2a47ebe4630924dc118d5d75c3501d0a3699df514af1920e" data-address="azurerm_user_assigned_identity.permission_test" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_user_assigned_identity.permission_test source">
+<title>azurerm_user_assigned_identity.permission_test — Create</title><rect x="776" y="1754" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<text x="788" y="1779" font-size="14">id-spiritops-permission-test-d…</text>
+<text x="788" y="1802" font-size="11">azurerm_user_assigned_identity</text>
+<text x="788" y="1831" font-size="12" fill="#45d99b">+ Create</text>
+</a>
+</g>
+<g id="nc0701c5a9e73161ed765e3eae86a35b1e37c49ba705fb468fcbebe1f2fba35fc" data-address="azurerm_virtual_network.apptest" data-build-id="01M4ZSF9EE1Z3C3TVPHZ53A27J">
+<a href="https://github.com/jeffy555/terraform-validation/blob/0b0d557d43a278178c61a81c17df331e2fbe60de/main.tf" aria-label="Open azurerm_virtual_network.apptest source">
+<title>azurerm_virtual_network.apptest — Unchanged</title><rect x="412" y="1120" width="280" height="100" rx="10" fill="#12212b" stroke="#8cabb9" stroke-width="2"/>
+<text x="424" y="1145" font-size="14">vnet-spiritops-apptest-dev</text>
+<text x="424" y="1168" font-size="11">azurerm_virtual_network</text>
+<text x="424" y="1197" font-size="12" fill="#8cabb9">= Unchanged</text>
+</a>
 </g>
 </g></svg>

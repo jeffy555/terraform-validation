@@ -1,8 +1,8 @@
 {
   "context": {
-    "buildId": "01M4ZBMS00T4SS9RTWZ863EANC",
-    "commitSha": "",
-    "parentBuildId": null,
+    "buildId": "01M4ZSF9EE1Z3C3TVPHZ53A27J",
+    "commitSha": "0b0d557d43a278178c61a81c17df331e2fbe60de",
+    "parentBuildId": "01M4ZBMS00T4SS9RTWZ863EANC",
     "repo": "jeffy555/terraform-validation",
     "workspace": "SpiritOps"
   },
@@ -195,6 +195,11 @@
     {
       "label": "depends on",
       "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_user_assigned_identity.permission_test"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
       "target": "azurerm_virtual_network.apptest"
     },
     {
@@ -244,6 +249,11 @@
     },
     {
       "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_role_assignment.permission_test_storage_reader"
+    },
+    {
+      "label": "depends on",
       "source": "azurerm_subnet.function_integration",
       "target": "azurerm_linux_function_app.apptest"
     },
@@ -261,6 +271,11 @@
       "label": "depends on",
       "source": "azurerm_subnet.private_endpoints",
       "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_user_assigned_identity.permission_test",
+      "target": "azurerm_role_assignment.permission_test_storage_reader"
     },
     {
       "label": "depends on",
@@ -298,7 +313,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "update"
     },
     {
       "address": "azurerm_linux_web_app.apptest",
@@ -308,7 +323,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_postgresql_flexible_server.apptest",
@@ -328,7 +343,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_dns_zone.storage[\"queue\"]",
@@ -338,7 +353,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_dns_zone.storage[\"table\"]",
@@ -348,7 +363,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]",
@@ -428,7 +443,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"queue\"]",
@@ -438,13 +453,23 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"table\"]",
       "kind": "azurerm_role_assignment",
       "layer": "security",
       "name": "7c44d5d8-1a14-4e02-9c90-774b409c9f53",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_role_assignment.permission_test_storage_reader",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "azurerm_role_assignment.permission_test_storage_reader",
       "source": {
         "path": "main.tf"
       },
@@ -478,7 +503,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_subnet.private_endpoints",
@@ -488,7 +513,17 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_user_assigned_identity.permission_test",
+      "kind": "azurerm_user_assigned_identity",
+      "layer": "security",
+      "name": "id-spiritops-permission-test-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
     },
     {
       "address": "azurerm_virtual_network.apptest",
@@ -498,7 +533,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     }
   ],
   "version": 1

@@ -1,0 +1,540 @@
+{
+  "context": {
+    "buildId": "01M4ZSF9EE1Z3C3TVPHZ53A27J",
+    "commitSha": "0b0d557d43a278178c61a81c17df331e2fbe60de",
+    "parentBuildId": "01M4ZBMS00T4SS9RTWZ863EANC",
+    "repo": "jeffy555/terraform-validation",
+    "workspace": "SpiritOps"
+  },
+  "edges": [
+    {
+      "label": "depends on",
+      "source": "azurerm_linux_function_app.apptest",
+      "target": "azurerm_role_assignment.function_storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_linux_function_app.apptest",
+      "target": "azurerm_role_assignment.function_storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_linux_function_app.apptest",
+      "target": "azurerm_role_assignment.function_storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"blob\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"blob\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"blob\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"blob\"]",
+      "target": "azurerm_private_endpoint.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"blob\"]",
+      "target": "azurerm_private_endpoint.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"blob\"]",
+      "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"queue\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"queue\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"queue\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"queue\"]",
+      "target": "azurerm_private_endpoint.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"queue\"]",
+      "target": "azurerm_private_endpoint.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"queue\"]",
+      "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"table\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"table\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"table\"]",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"table\"]",
+      "target": "azurerm_private_endpoint.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"table\"]",
+      "target": "azurerm_private_endpoint.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_private_dns_zone.storage[\"table\"]",
+      "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_linux_function_app.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_linux_web_app.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_postgresql_flexible_server.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_dns_zone.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_dns_zone.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_dns_zone.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_endpoint.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_endpoint.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_service_plan.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_storage_account.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_subnet.function_integration"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_subnet.private_endpoints"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_user_assigned_identity.permission_test"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_virtual_network.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_service_plan.apptest",
+      "target": "azurerm_linux_function_app.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_service_plan.apptest",
+      "target": "azurerm_linux_web_app.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_linux_function_app.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_private_endpoint.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_private_endpoint.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_role_assignment.function_storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_role_assignment.function_storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_role_assignment.function_storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_role_assignment.permission_test_storage_reader"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_subnet.function_integration",
+      "target": "azurerm_linux_function_app.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_subnet.private_endpoints",
+      "target": "azurerm_private_endpoint.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_subnet.private_endpoints",
+      "target": "azurerm_private_endpoint.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_subnet.private_endpoints",
+      "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_user_assigned_identity.permission_test",
+      "target": "azurerm_role_assignment.permission_test_storage_reader"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_virtual_network.apptest",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_virtual_network.apptest",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_virtual_network.apptest",
+      "target": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_virtual_network.apptest",
+      "target": "azurerm_subnet.function_integration"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_virtual_network.apptest",
+      "target": "azurerm_subnet.private_endpoints"
+    }
+  ],
+  "generator": "spiritops-dagre-v1",
+  "nodes": [
+    {
+      "address": "azurerm_linux_function_app.apptest",
+      "kind": "azurerm_linux_function_app",
+      "layer": "compute",
+      "name": "func-spiritops-apptest-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "update"
+    },
+    {
+      "address": "azurerm_linux_web_app.apptest",
+      "kind": "azurerm_linux_web_app",
+      "layer": "compute",
+      "name": "app-spiritops-apptest-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_postgresql_flexible_server.apptest",
+      "kind": "azurerm_postgresql_flexible_server",
+      "layer": "storage",
+      "name": "pg-spiritops-apptest-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_dns_zone.storage[\"blob\"]",
+      "kind": "azurerm_private_dns_zone",
+      "layer": "compute",
+      "name": "privatelink.blob.core.windows.net",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_dns_zone.storage[\"queue\"]",
+      "kind": "azurerm_private_dns_zone",
+      "layer": "compute",
+      "name": "privatelink.queue.core.windows.net",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_dns_zone.storage[\"table\"]",
+      "kind": "azurerm_private_dns_zone",
+      "layer": "compute",
+      "name": "privatelink.table.core.windows.net",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]",
+      "kind": "azurerm_private_dns_zone_virtual_network_link",
+      "layer": "compute",
+      "name": "link-apptest-blob",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]",
+      "kind": "azurerm_private_dns_zone_virtual_network_link",
+      "layer": "compute",
+      "name": "link-apptest-queue",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]",
+      "kind": "azurerm_private_dns_zone_virtual_network_link",
+      "layer": "compute",
+      "name": "link-apptest-table",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_endpoint.storage[\"blob\"]",
+      "kind": "azurerm_private_endpoint",
+      "layer": "networking",
+      "name": "pe-apptest-blob",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_endpoint.storage[\"queue\"]",
+      "kind": "azurerm_private_endpoint",
+      "layer": "networking",
+      "name": "pe-apptest-queue",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_private_endpoint.storage[\"table\"]",
+      "kind": "azurerm_private_endpoint",
+      "layer": "networking",
+      "name": "pe-apptest-table",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_resource_group.apptest",
+      "kind": "azurerm_resource_group",
+      "layer": "compute",
+      "name": "rg-spiritops-apptest-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_role_assignment.function_storage[\"blob\"]",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "7c44d5d8-1a14-4e02-9c90-774b409c9f51",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_role_assignment.function_storage[\"queue\"]",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "7c44d5d8-1a14-4e02-9c90-774b409c9f52",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_role_assignment.function_storage[\"table\"]",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "7c44d5d8-1a14-4e02-9c90-774b409c9f53",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_role_assignment.permission_test_storage_reader",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "azurerm_role_assignment.permission_test_storage_reader",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_service_plan.apptest",
+      "kind": "azurerm_service_plan",
+      "layer": "compute",
+      "name": "asp-spiritops-apptest-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_storage_account.apptest",
+      "kind": "azurerm_storage_account",
+      "layer": "storage",
+      "name": "stspiritopsapptest01",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_subnet.function_integration",
+      "kind": "azurerm_subnet",
+      "layer": "networking",
+      "name": "snet-functions",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_subnet.private_endpoints",
+      "kind": "azurerm_subnet",
+      "layer": "networking",
+      "name": "snet-private-endpoints",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_user_assigned_identity.permission_test",
+      "kind": "azurerm_user_assigned_identity",
+      "layer": "security",
+      "name": "id-spiritops-permission-test-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_virtual_network.apptest",
+      "kind": "azurerm_virtual_network",
+      "layer": "networking",
+      "name": "vnet-spiritops-apptest-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "unchanged"
+    }
+  ],
+  "version": 1
+}
