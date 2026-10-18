@@ -1,8 +1,8 @@
 {
   "context": {
-    "buildId": "01M4ZSF9EE1Z3C3TVPHZ53A27J",
-    "commitSha": "0b0d557d43a278178c61a81c17df331e2fbe60de",
-    "parentBuildId": "01M4ZBMS00T4SS9RTWZ863EANC",
+    "buildId": "01M587KTZ2YXGM5708ERRG8GVS",
+    "commitSha": "ce74699977dc3d45d6c6b044322edf6d129d67f8",
+    "parentBuildId": "01M4ZSF9EE1Z3C3TVPHZ53A27J",
     "repo": "jeffy555/terraform-validation",
     "workspace": "SpiritOps"
   },
@@ -121,6 +121,11 @@
       "label": "depends on",
       "source": "azurerm_resource_group.apptest",
       "target": "azurerm_linux_web_app.apptest"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_network_security_group.e2e_test"
     },
     {
       "label": "depends on",
@@ -313,7 +318,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "update"
+      "state": "drift"
     },
     {
       "address": "azurerm_linux_web_app.apptest",
@@ -323,7 +328,17 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
+    },
+    {
+      "address": "azurerm_network_security_group.e2e_test",
+      "kind": "azurerm_network_security_group",
+      "layer": "security",
+      "name": "nsg-spiritops-e2e-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
     },
     {
       "address": "azurerm_postgresql_flexible_server.apptest",
@@ -333,7 +348,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_dns_zone.storage[\"blob\"]",
@@ -343,7 +358,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_dns_zone.storage[\"queue\"]",
@@ -353,7 +368,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_dns_zone.storage[\"table\"]",
@@ -363,7 +378,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"blob\"]",
@@ -373,7 +388,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]",
@@ -383,7 +398,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]",
@@ -393,7 +408,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_endpoint.storage[\"blob\"]",
@@ -403,7 +418,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_endpoint.storage[\"queue\"]",
@@ -413,7 +428,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_private_endpoint.storage[\"table\"]",
@@ -423,7 +438,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_resource_group.apptest",
@@ -433,7 +448,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"blob\"]",
@@ -443,7 +458,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"queue\"]",
@@ -453,7 +468,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"table\"]",
@@ -463,7 +478,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_role_assignment.permission_test_storage_reader",
@@ -473,7 +488,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "drift"
     },
     {
       "address": "azurerm_service_plan.apptest",
@@ -483,7 +498,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_storage_account.apptest",
@@ -493,7 +508,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_subnet.function_integration",
@@ -503,7 +518,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_subnet.private_endpoints",
@@ -513,7 +528,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     },
     {
       "address": "azurerm_user_assigned_identity.permission_test",
@@ -523,7 +538,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "drift"
     },
     {
       "address": "azurerm_virtual_network.apptest",
@@ -533,7 +548,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "unchanged"
+      "state": "drift"
     }
   ],
   "version": 1

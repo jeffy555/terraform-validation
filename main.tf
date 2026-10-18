@@ -183,3 +183,9 @@ resource "azurerm_role_assignment" "permission_test_storage_reader" {
   principal_id         = azurerm_user_assigned_identity.permission_test.principal_id
   principal_type       = "ServicePrincipal"
 }
+resource "azurerm_network_security_group" "e2e_test" {
+  name                = "nsg-spiritops-e2e-dev"
+  resource_group_name = azurerm_resource_group.apptest.name
+  location            = azurerm_resource_group.apptest.location
+  tags                = local.required_tags
+}

@@ -1,0 +1,33 @@
+{
+  "actor": "loavesflash@gmail.com",
+  "applied_at": null,
+  "approver": null,
+  "artifact_paths": {
+    "graphJson": ".spiritops/architecture/history/01M587KTZ2YXGM5708ERRG8GVS/graph.json",
+    "graphMmd": ".spiritops/architecture/history/01M587KTZ2YXGM5708ERRG8GVS/graph.mmd",
+    "graphSvg": ".spiritops/architecture/history/01M587KTZ2YXGM5708ERRG8GVS/graph.svg"
+  },
+  "blast_radius": 10,
+  "branch": "tester",
+  "build_id": "01M587KTZ2YXGM5708ERRG8GVS",
+  "commit_sha": "",
+  "created_at": "2026-10-18T19:25:28.951Z",
+  "diagram_hash": "1a1f9b42e470cee2209f4f6cece69225e48d0a3e2d2c26053efcf7f00299b776",
+  "drift_detected": true,
+  "duration_ms": null,
+  "intent_ids": [
+    "9e0417fb-7c3b-477c-8e94-a0d60cb2c89f"
+  ],
+  "parent_build_id": "01M4ZSF9EE1Z3C3TVPHZ53A27J",
+  "patch_id": "apply:9e0417fb-7c3b-477c-8e94-a0d60cb2c89f",
+  "plan_summary": {
+    "add": 23,
+    "destroy": 0,
+    "drift": 23,
+    "modify": 1,
+    "replace": 0
+  },
+  "repo": "jeffy555/terraform-validation",
+  "status": "planned",
+  "workspace_id": "e1b3b924-66d4-8a1e-a6af-9bce6a547afa"
+}

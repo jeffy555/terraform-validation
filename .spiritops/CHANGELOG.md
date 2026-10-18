@@ -10,3 +10,9 @@
 2 add · 1 modify · 0 destroy · 0 replace · 0 drift. Blast radius: 3/10.
 
 [Architecture](architecture/history/01M4ZSF9EE1Z3C3TVPHZ53A27J/graph.svg)
+
+## Build 01M587KTZ2YXGM5708ERRG8GVS
+
+23 add · 1 modify · 0 destroy · 0 replace · 23 drift. Blast radius: 10/10.
+
+[Architecture](architecture/history/01M587KTZ2YXGM5708ERRG8GVS/graph.svg)
