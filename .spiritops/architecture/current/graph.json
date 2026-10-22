@@ -1,8 +1,8 @@
 {
   "context": {
-    "buildId": "01M587KTZ2YXGM5708ERRG8GVS",
-    "commitSha": "ce74699977dc3d45d6c6b044322edf6d129d67f8",
-    "parentBuildId": "01M4ZSF9EE1Z3C3TVPHZ53A27J",
+    "buildId": "01M5GSNQ10CSDX5Q0E8WMQA4PR",
+    "commitSha": "eae7ee45b3df2f693cdce744c1005417ccfaf6da",
+    "parentBuildId": "01M587KTZ2YXGM5708ERRG8GVS",
     "repo": "jeffy555/terraform-validation",
     "workspace": "SpiritOps"
   },
@@ -200,6 +200,11 @@
     {
       "label": "depends on",
       "source": "azurerm_resource_group.apptest",
+      "target": "azurerm_user_assigned_identity.cleanup_round"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.apptest",
       "target": "azurerm_user_assigned_identity.permission_test"
     },
     {
@@ -240,6 +245,11 @@
     {
       "label": "depends on",
       "source": "azurerm_storage_account.apptest",
+      "target": "azurerm_role_assignment.cleanup_round_storage_reader"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_storage_account.apptest",
       "target": "azurerm_role_assignment.function_storage[\"blob\"]"
     },
     {
@@ -276,6 +286,11 @@
       "label": "depends on",
       "source": "azurerm_subnet.private_endpoints",
       "target": "azurerm_private_endpoint.storage[\"table\"]"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_user_assigned_identity.cleanup_round",
+      "target": "azurerm_role_assignment.cleanup_round_storage_reader"
     },
     {
       "label": "depends on",
@@ -338,7 +353,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "create"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_postgresql_flexible_server.apptest",
@@ -348,7 +363,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_dns_zone.storage[\"blob\"]",
@@ -388,7 +403,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"queue\"]",
@@ -398,7 +413,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_dns_zone_virtual_network_link.storage[\"table\"]",
@@ -408,7 +423,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_endpoint.storage[\"blob\"]",
@@ -418,7 +433,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_endpoint.storage[\"queue\"]",
@@ -428,7 +443,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_private_endpoint.storage[\"table\"]",
@@ -438,7 +453,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_resource_group.apptest",
@@ -448,7 +463,17 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
+    },
+    {
+      "address": "azurerm_role_assignment.cleanup_round_storage_reader",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "azurerm_role_assignment.cleanup_round_storage_reader",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"blob\"]",
@@ -458,7 +483,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"queue\"]",
@@ -468,7 +493,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_role_assignment.function_storage[\"table\"]",
@@ -478,17 +503,17 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_role_assignment.permission_test_storage_reader",
       "kind": "azurerm_role_assignment",
       "layer": "security",
-      "name": "azurerm_role_assignment.permission_test_storage_reader",
+      "name": "38357333-d4dc-f23e-5232-c69482e8a1ed",
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_service_plan.apptest",
@@ -498,7 +523,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_storage_account.apptest",
@@ -508,7 +533,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_subnet.function_integration",
@@ -531,6 +556,16 @@
       "state": "drift"
     },
     {
+      "address": "azurerm_user_assigned_identity.cleanup_round",
+      "kind": "azurerm_user_assigned_identity",
+      "layer": "security",
+      "name": "id-spiritops-cleanup-round-dev",
+      "source": {
+        "path": "main.tf"
+      },
+      "state": "create"
+    },
+    {
       "address": "azurerm_user_assigned_identity.permission_test",
       "kind": "azurerm_user_assigned_identity",
       "layer": "security",
@@ -538,7 +573,7 @@
       "source": {
         "path": "main.tf"
       },
-      "state": "drift"
+      "state": "unchanged"
     },
     {
       "address": "azurerm_virtual_network.apptest",

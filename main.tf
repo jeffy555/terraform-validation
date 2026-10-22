@@ -189,3 +189,16 @@ resource "azurerm_network_security_group" "e2e_test" {
   location            = azurerm_resource_group.apptest.location
   tags                = local.required_tags
 }
+resource "azurerm_user_assigned_identity" "cleanup_round" {
+  name                = "id-spiritops-cleanup-round-dev"
+  resource_group_name = azurerm_resource_group.apptest.name
+  location            = azurerm_resource_group.apptest.location
+  tags                = local.required_tags
+}
+
+resource "azurerm_role_assignment" "cleanup_round_storage_reader" {
+  role_definition_name = "Reader"
+  scope                = azurerm_storage_account.apptest.id
+  principal_id         = azurerm_user_assigned_identity.cleanup_round.principal_id
+  principal_type       = "ServicePrincipal"
+}
