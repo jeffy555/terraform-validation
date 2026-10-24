@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1104 464" role="img" aria-labelledby="title description" data-build-id="01M5PC5E81VG4WQRV9G25EWW75">
+<title id="title">SpiritOps architecture</title>
+<desc id="description">Directional resource dependencies. Each node includes its change label and source link.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8cabb9"/></marker></defs>
+<rect width="1104" height="464" fill="#0b141b"/>
+<g font-family="sans-serif" fill="#e5f0f6"><text x="24" y="30" font-size="19">SpiritOps</text>
+<text x="24" y="53" font-size="12">Build 01M5PC5E81VG4WQRV9G25EWW75 · Source 6abf4837 · Parent 01M5GSNQ10CSDX5Q0E8WMQA4PR</text>
+<text x="24" y="80" font-size="12" fill="#8cabb9">= Unchanged</text>
+<text x="156" y="80" font-size="12" fill="#45d99b">+ Create</text>
+<text x="288" y="80" font-size="12" fill="#f4c265">~ Modify</text>
+<text x="420" y="80" font-size="12" fill="#ff747e">− Destroy</text>
+<text x="552" y="80" font-size="12" fill="#ff747e">↻ Replace</text>
+<text x="684" y="80" font-size="12" fill="#ff9a4c">! Drift</text>
+<polyline points="321.82,302 370,320 412,320" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="321.82,202 370,184 412,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polyline points="692,184 734,184 776,184" fill="none" stroke="#8cabb9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<g id="nb874c88d007eb23086094587f8739360a1f388599518e39ebcae79b6f86f2b0f" data-address="azurerm_network_security_group.security_test" data-build-id="01M5PC5E81VG4WQRV9G25EWW75">
+<a href="https://github.com/jeffy555/terraform-validation/blob/6abf4837288db774f4c62b5cc9865483755be74a/onboarding-test/main.tf" aria-label="Open azurerm_network_security_group.security_test source">
+<title>azurerm_network_security_group.security_test — Create</title><rect x="412" y="270" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<text x="424" y="295" font-size="14">nsg-spiritops-onboarding-test-…</text>
+<text x="424" y="318" font-size="11">azurerm_network_security_group</text>
+<text x="424" y="347" font-size="12" fill="#45d99b">+ Create</text>
+</a>
+</g>
+<g id="n175f77512d6ddddc4efabde656ce8866da34d436b5e36359d025a5d49ccf273f" data-address="azurerm_resource_group.onboarding_test" data-build-id="01M5PC5E81VG4WQRV9G25EWW75">
+<a href="https://github.com/jeffy555/terraform-validation/blob/6abf4837288db774f4c62b5cc9865483755be74a/onboarding-test/main.tf" aria-label="Open azurerm_resource_group.onboarding_test source">
+<title>azurerm_resource_group.onboarding_test — Modify</title><rect x="48" y="202" width="280" height="100" rx="10" fill="#12212b" stroke="#f4c265" stroke-width="2"/>
+<text x="60" y="227" font-size="14">rg-spiritops-onboarding-test-d…</text>
+<text x="60" y="250" font-size="11">azurerm_resource_group</text>
+<text x="60" y="279" font-size="12" fill="#f4c265">~ Modify</text>
+</a>
+</g>
+<g id="ne14598c4de7fa0ad1c0ad32d8dd8d709266cf4a0dd8d58e66a1e222c426ef458" data-address="azurerm_role_assignment.project_reader" data-build-id="01M5PC5E81VG4WQRV9G25EWW75">
+<a href="https://github.com/jeffy555/terraform-validation/blob/6abf4837288db774f4c62b5cc9865483755be74a/onboarding-test/main.tf" aria-label="Open azurerm_role_assignment.project_reader source">
+<title>azurerm_role_assignment.project_reader — Create</title><rect x="776" y="134" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<text x="788" y="159" font-size="14">azurerm_role_assignment.projec…</text>
+<text x="788" y="182" font-size="11">azurerm_role_assignment</text>
+<text x="788" y="211" font-size="12" fill="#45d99b">+ Create</text>
+</a>
+</g>
+<g id="n65d2e3995f4534c144aa5609214140f6584ecc24c386822a9ba55aacbd6b0845" data-address="azurerm_user_assigned_identity.onboarding_test" data-build-id="01M5PC5E81VG4WQRV9G25EWW75">
+<a href="https://github.com/jeffy555/terraform-validation/blob/6abf4837288db774f4c62b5cc9865483755be74a/onboarding-test/main.tf" aria-label="Open azurerm_user_assigned_identity.onboarding_test source">
+<title>azurerm_user_assigned_identity.onboarding_test — Create</title><rect x="412" y="134" width="280" height="100" rx="10" fill="#12212b" stroke="#45d99b" stroke-width="2"/>
+<text x="424" y="159" font-size="14">id-spiritops-onboarding-test-d…</text>
+<text x="424" y="182" font-size="11">azurerm_user_assigned_identity</text>
+<text x="424" y="211" font-size="12" fill="#45d99b">+ Create</text>
+</a>
+</g>
+</g></svg>

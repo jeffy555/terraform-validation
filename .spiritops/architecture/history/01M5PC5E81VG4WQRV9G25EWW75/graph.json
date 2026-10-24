@@ -1,0 +1,70 @@
+{
+  "context": {
+    "buildId": "01M5PC5E81VG4WQRV9G25EWW75",
+    "commitSha": "6abf4837288db774f4c62b5cc9865483755be74a",
+    "parentBuildId": "01M5GSNQ10CSDX5Q0E8WMQA4PR",
+    "repo": "jeffy555/terraform-validation",
+    "workspace": "SpiritOps"
+  },
+  "edges": [
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.onboarding_test",
+      "target": "azurerm_network_security_group.security_test"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_resource_group.onboarding_test",
+      "target": "azurerm_user_assigned_identity.onboarding_test"
+    },
+    {
+      "label": "depends on",
+      "source": "azurerm_user_assigned_identity.onboarding_test",
+      "target": "azurerm_role_assignment.project_reader"
+    }
+  ],
+  "generator": "spiritops-dagre-v1",
+  "nodes": [
+    {
+      "address": "azurerm_network_security_group.security_test",
+      "kind": "azurerm_network_security_group",
+      "layer": "security",
+      "name": "nsg-spiritops-onboarding-test-dev",
+      "source": {
+        "path": "onboarding-test/main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_resource_group.onboarding_test",
+      "kind": "azurerm_resource_group",
+      "layer": "compute",
+      "name": "rg-spiritops-onboarding-test-dev",
+      "source": {
+        "path": "onboarding-test/main.tf"
+      },
+      "state": "update"
+    },
+    {
+      "address": "azurerm_role_assignment.project_reader",
+      "kind": "azurerm_role_assignment",
+      "layer": "security",
+      "name": "azurerm_role_assignment.project_reader",
+      "source": {
+        "path": "onboarding-test/main.tf"
+      },
+      "state": "create"
+    },
+    {
+      "address": "azurerm_user_assigned_identity.onboarding_test",
+      "kind": "azurerm_user_assigned_identity",
+      "layer": "security",
+      "name": "id-spiritops-onboarding-test-dev",
+      "source": {
+        "path": "onboarding-test/main.tf"
+      },
+      "state": "create"
+    }
+  ],
+  "version": 1
+}
